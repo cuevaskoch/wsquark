@@ -1,0 +1,17 @@
+{
+  "name": "wsquark",
+  "productName": "wsquark",
+  "version": "0.1.0",
+  "description": "Cross-platform WebSocket client",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Jeff Cuevas-Koch",
+    "url": "https://cuevaskoch.com/"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
